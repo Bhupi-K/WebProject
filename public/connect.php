@@ -1,6 +1,6 @@
 <?php
-	$firstName = $_POST['firstName'];
-	$lastName = $_POST['lastName'];
+	$firstName = $_POST['fullName'];
+	$lastName = $_POST['course'];
 	$gender = $_POST['gender'];
 	$email = $_POST['email'];
 	$password = $_POST['password'];
@@ -21,3 +21,5 @@
 		$conn->close();
 	}
 ?>
+
+
